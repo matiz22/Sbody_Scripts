@@ -57,12 +57,12 @@ python cli.py generate_column --path <file_path> --new_column <column_name> --mo
 
 #### Using OpenAI
 ```sh
-python cli.py generate_column --path data.xlsx --new_column AI_Description --model gpt-4o --column Exercise Name
+python cli.py generate_column --path "data.xlsx" --new_column "AI_Description" --model "gpt-4o" --column "Exercise Name"
 ```
 
 #### Using Ollama
 ```sh
-python cli.py generate_column --path data.xlsx --new_column AI_Description --model gemma2 --provider ollama --column Exercise Name
+python cli.py generate_column --path "data.xlsx" --new_column "AI_Description" --model "gemma2" --provider "ollama" --column "Exercise Name"
 ```
 
 ## How It Works
