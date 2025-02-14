@@ -2,7 +2,7 @@ import argparse
 
 from dotenv import load_dotenv
 
-from exercise_details.scripts.generate_details import generate_new_column
+from exercise_details.scripts.generate_new_column import generate_new_column
 
 
 def main():
